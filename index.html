@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dog Nutrition Landing Page</title>
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Optional font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-white text-gray-800">
+    <!-- SECTION 1: What makes us different -->
+    <section class="max-w-5xl mx-auto px-6 py-10">
+      <h2 class="text-center text-3xl md:text-3xl font-bold mb-12">
+        What makes us different<br class="hidden md:block" />
+        <span>makes them stronger</span>
+      </h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-12 items-center">
+        <!-- LEFT FEATURES -->
+        <div class="space-y-10">
+          <div class="flex gap-4">
+            <img
+              src="images/icons/icon-real-food.svg"
+              alt="Real Food icon"
+              class="w-10 h-10"
+            />
+            <div>
+              <h4 class="font-semibold mb-1">Real Food</h4>
+              <p class="text-sm text-gray-600">
+                Wholesome recipes for dogs with real meat and veggies.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex gap-4">
+            <img
+              src="images/icons/icon-premium.svg"
+              alt="Premium Ingredient icon"
+              class="w-10 h-10"
+            />
+            <div>
+              <h4 class="font-semibold mb-1">Premium Ingredient</h4>
+              <p class="text-sm text-gray-600">
+                Elevating pet care with unmatched safety and quality.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- CENTER IMAGE -->
+        <div class="flex justify-center">
+          <img
+            src="images/food-bowl.png"
+            alt="Dog food comparison"
+            class="w-70 h-70 object-cover rounded-full"
+          />
+        </div>
+
+        <!-- RIGHT FEATURES -->
+        <div class="space-y-10">
+          <div class="flex gap-4">
+            <img
+              src="images/icons/icon-made-fresh.svg"
+              alt="Made Fresh icon"
+              class="w-10 h-10"
+            />
+            <div>
+              <h4 class="font-semibold mb-1">Made Fresh</h4>
+              <p class="text-sm text-gray-600">
+                We prioritize maintaining the integrity of whole foods and
+                nutrition.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex gap-4">
+            <img
+              src="images/icons/icon-vet.svg"
+              alt="Vet Developed icon"
+              class="w-10 h-10"
+            />
+            <div>
+              <h4 class="font-semibold mb-1">Vet Developed</h4>
+              <p class="text-sm text-gray-600">
+                We raise the bar for dog nutrition, surpassing industry
+                expectations.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CTA -->
+      <div class="text-center mt-12">
+        <button
+          class="bg-orange-500 text-white text-sm px-20 py-3 rounded-md font-medium hover:bg-orange-600 transition"
+        >
+          Get your dog's healthy meal today!
+        </button>
+
+        <!-- SUBTEXT -->
+        <div
+          class="mt-4 flex flex-col items-center gap-3 text-sm text-gray-500"
+        >
+          <div class="flex items-center gap-2">
+            <img
+              src="images/payments/shield-check.svg"
+              alt="PayPal"
+              class="h-3"
+            />
+            <span>30-day money back guarantee</span>
+
+            <!-- PAYMENT ICONS -->
+            <img src="images/payments/paypal.svg" alt="PayPal" class="h-5" />
+            <img src="images/payments/visa.svg" alt="Visa" class="h-5" />
+            <img
+              src="images/payments/mastercard.svg"
+              alt="Mastercard"
+              class="h-5"
+            />
+            <img
+              src="images/payments/applepay.svg"
+              alt="Apple Pay"
+              class="h-5"
+            />
+            <img
+              src="images/payments/googlepay.svg"
+              alt="Google Pay"
+              class="h-5"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: Nutrition stats -->
+    <section class="bg-gray-50 py-16">
+      <div
+        class="max-w-5xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center"
+      >
+        <div>
+          <h3 class="text-3xl font-bold mb-4">
+            Nutrition is the foundation for longer, healthier lives in dogs.
+          </h3>
+
+          <p class="text-gray-600 mb-6 text-sm">
+            Invest in your dog's future with our scientifically formulated
+            superfood-powered supplements. Give them the nutrition they deserve
+            and watch them thrive with vitality, energy, and the joy of a
+            longer, healthier life.
+          </p>
+
+          <div class="space-y-4">
+            <h4 class="text-sm font-bold mb-4">Key Points:</h4>
+            <div class="flex items-center gap-4">
+              <span class="text-orange-500 font-bold text-2xl">97%</span>
+              <p class="text-sm text-gray-700">
+                Dogs choose our dog food over leading brands because of its real
+                functional ingredients and delicious flavor.
+              </p>
+            </div>
+
+            <div class="flex items-center gap-4">
+              <span class="text-orange-500 font-bold text-2xl">84%</span>
+              <p class="text-sm text-gray-700">
+                Our dog food provides superior nutrition and a patented
+                probiotic for optimal nutrient absorption.
+              </p>
+            </div>
+
+            <div class="flex items-center gap-4">
+              <span class="text-orange-500 font-bold text-2xl">92%</span>
+              <p class="text-sm text-gray-700">
+                Our dog food's high protein and fat digestibility contribute to
+                ideal stool quality.
+              </p>
+            </div>
+          </div>
+
+          <button
+            class="mt-8 bg-orange-500 text-white px-12 py-3 text-sm rounded-md font-medium hover:bg-orange-600 transition"
+          >
+            Give your furry friend the gift of wholesome nutrition
+          </button>
+        </div>
+
+        <div class="flex justify-center">
+          <img
+            src="images/dog-food.png"
+            alt="Dog with food"
+            class="max-w-xl w-full"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: Digestive health -->
+    <section
+      class="max-w-5xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-2 gap-12 items-center"
+    >
+      <div class="flex justify-center">
+        <img
+          src="images/dogs-eating.gif"
+          alt="Dogs eating"
+          class="rounded-lg shadow"
+        />
+      </div>
+
+      <div>
+        <h3 class="text-3xl font-bold mb-4">
+          Improve overall gastrointestinal health for better nutrition
+          absorption
+        </h3>
+
+        <p class="text-gray-600 text-sm">
+          Through rigorous scientific studies and consultations with
+          veterinarians, we have created a breakthrough formula exclusively
+          tailored to combat the health challenges prevalent in dogs. A
+          staggering 91% of our customers have reported significant improvements
+          in their dogs' health after incorporating our product into their diet.
+        </p>
+      </div>
+    </section>
+
+    <!-- SECTION 4: Prebiotics -->
+    <section class="bg-gray-50 py-16">
+      <div
+        class="max-w-5xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center"
+      >
+        <div>
+          <h3 class="text-3xl font-bold mb-4">
+            Prebiotics nourish the beneficial gut bacteria, supporting digestive
+            health
+          </h3>
+
+          <p class="text-gray-600 text-sm">
+            Our dog food formula contains carefully selected prebiotics that
+            work in harmony with the gut microbiota, providing the necessary
+            nutrients for the growth and maintenance of beneficial bacteria,
+            ultimately supporting digestive health.
+          </p>
+        </div>
+
+        <div class="flex justify-center">
+          <img
+            src="images/kibble.png"
+            alt="Dog food kibble"
+            class="rounded-lg shadow"
+          />
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
