@@ -23,7 +23,7 @@ No JavaScript frameworks were used because the page is fully static.
 
 
 ## Live Demo
-Add your Vercel deployment link here.
+(https://interview-dog-nutrition-landing-page-e8kulm45l-joy-codes.vercel.app/)
 
 ## How to Run Locally
 No setup is required.
