@@ -23,7 +23,7 @@ No JavaScript frameworks were used because the page is fully static.
 
 
 ## Live Demo
-(interview-dog-nutrition-landing-pag.vercel.app)
+([interview-dog-nutrition-landing-pag.vercel.app](https://interview-dog-nutrition-landing-pag.vercel.app/))
 
 ## How to Run Locally
 No setup is required.
