@@ -15,7 +15,7 @@ The goal of this task was to accurately translate a provided Figma design into a
 No JavaScript frameworks were used because the page is fully static.
 
 ## Design Implementation
-- All images, SVG icons, and the GIF used on the page were exported directly from the provided Figma file.
+- All images, SVG icons, and the GIF used on the page were exported directly from the provided Figma file in the mail.
 - Colors were taken from the Figma design to ensure visual consistency.
 - Spacing, layout structure, and sizing were implemented to closely match the measurements shown in the Figma file.
 - Icons were exported as SVG files to maintain quality and accuracy.
